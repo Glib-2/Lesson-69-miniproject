@@ -1,5 +1,11 @@
 a {
     text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
 }
 
 li {
@@ -9,4 +15,82 @@ li {
 ul,
 nav {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 75px;
+    max-width: 800px;
+    height: auto;
+    color: black;
+}
+
+.div_hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.hero_p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #454444;
+    max-width: 400px;
+    height: 150px;
+}
+
+.Boat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+
+.main_first {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.main_cards {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin: 50px;
+}
+
+.main_h2_1 {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 50px;
+    max-width: 600px;
+    height: auto;
+    color: black;
+}
+
+.main_p_1 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #454444;
+    max-width: 500px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.div_main_1{
+    margin-top: 50px;
 }
