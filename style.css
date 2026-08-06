@@ -6,6 +6,7 @@ a {
 
 body {
     font-family: "Manrope", sans-serif;
+    margin: 0px;
 }
 
 li {
@@ -91,6 +92,32 @@ h1 {
     margin-top: 50px;
 }
 
-.div_main_1{
+.div_main_1 {
     margin-top: 50px;
+}
+
+.main_h2_2 {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 50px;
+    max-width: 600px;
+    height: auto;
+    color: black;
+}
+
+.main_p_2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #454444;
+    max-width: 608px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.div_main_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
 }
