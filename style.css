@@ -563,7 +563,6 @@ footer {
     nav {
         width: auto;
         margin: 0 18px;
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -576,7 +575,6 @@ footer {
         background-color: #FEFCF7;
         border-radius: 30px;
         padding: 8px 14px;
-        box-sizing: border-box;
     }
 
     .nav_mobile img {
@@ -601,14 +599,11 @@ footer {
         display: none;
         width: 100%;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         gap: 15px;
-        background-color: #FEFCF7;
-        border-radius: 25px;
         padding: 20px 0;
         margin: 8px 0 0;
-        box-sizing: border-box;
+        border-radius: 25px;
     }
 
     .ul.active {
@@ -628,9 +623,7 @@ footer {
         height: auto;
     }
 
-
     .hero {
-        width: auto;
         flex-direction: column;
         align-items: center;
         gap: 20px;
@@ -643,7 +636,6 @@ footer {
         font-size: 34px;
         line-height: 1.15;
         text-align: center;
-        margin: 0;
     }
 
     .div_hero {
@@ -662,22 +654,17 @@ footer {
 
     .img_1 {
         width: 135px;
-        height: auto;
     }
 
-
     .Boat {
-        width: calc(100% - 36px);
+        width: 90%;
         max-width: 650px;
-        height: auto;
         margin: 0 auto 50px;
         border-radius: 15px;
     }
 
-
     .div_main_1 {
         padding: 45px 18px;
-        box-sizing: border-box;
     }
 
     .main_first {
@@ -718,13 +705,11 @@ footer {
         border-radius: 14px;
     }
 
-
     .div_main_2 {
         flex-direction: column;
         align-items: center;
         gap: 30px;
         padding: 50px 18px;
-        box-sizing: border-box;
     }
 
     .main_second {
@@ -753,35 +738,24 @@ footer {
         width: 100%;
         max-width: 420px;
         height: auto;
-        border-radius: 15px;
     }
-
 
     .big_cards {
         flex-direction: column;
         align-items: center;
         gap: 22px;
         padding: 45px 18px;
-        box-sizing: border-box;
     }
 
     .big_card {
         width: 100%;
         max-width: 420px;
         padding-bottom: 18px;
-        box-sizing: border-box;
     }
 
-    .big_card > img:first-child {
-        width: 100%;
+    .big_card img {
+        max-width: 100%;
         height: auto;
-        display: block;
-    }
-
-    .big_card > img:last-child {
-        width: 85px;
-        height: auto;
-        margin-left: 10px;
     }
 
     .September {
@@ -791,10 +765,6 @@ footer {
 
     .September_text {
         font-size: 11px;
-    }
-
-    .bigcard_text_1 {
-        padding: 0 15px;
     }
 
     .bigcard_h2 {
@@ -807,13 +777,11 @@ footer {
         line-height: 1.5;
     }
 
-
     .main_5 {
         flex-direction: column;
         align-items: center;
         gap: 30px;
         padding: 50px 18px;
-        box-sizing: border-box;
     }
 
     .mini_main_5 {
@@ -847,17 +815,13 @@ footer {
         height: 30px;
     }
 
-    .main_5 > img {
-        width: 100%;
-        max-width: 430px;
+    .main_5 img {
+        max-width: 90%;
         height: auto;
-        border-radius: 15px;
     }
-
 
     .mission2 {
         padding: 50px 18px;
-        box-sizing: border-box;
     }
 
     .mission2 h2 {
@@ -874,11 +838,10 @@ footer {
         gap: 30px;
     }
 
-    .main-container > img {
-        width: 100%;
+    .main-container img {
+        width: 90%;
         max-width: 400px;
         height: auto;
-        border-radius: 15px;
     }
 
     .items {
@@ -905,13 +868,11 @@ footer {
         font-size: 17px;
     }
 
-
     footer {
         width: auto;
         margin: 30px 18px 15px;
         padding: 30px 20px 20px;
         border-radius: 25px;
-        box-sizing: border-box;
     }
 
     .footer-top {
@@ -952,9 +913,5 @@ footer {
 
     .footer-bottom p {
         font-size: 11px;
-    }
-
-    .icons img {
-        width: 115px;
     }
 }
